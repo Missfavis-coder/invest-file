@@ -1,0 +1,11 @@
+
+#accordion{
+    background: blue;
+    padding: 15px;
+}
+#accordion p{
+    overflow: hidden;
+    transition: max-height 0.5s;
+    line-height: 1.5rem;
+    max-height: 0;
+}

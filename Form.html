@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="ADESHOLA.css">
+</head>
+<body>
+    <form action="" method="get">
+      Username: <input  type="text" name="Username" maxlength="10" size="10"/>
+      Password: <input type="password" name="Password" maxlength="10" size="10"/>
+       
+      The name of your Department
+      <select name="Department" multiple size="2">
+        <optgroup label="Best_Department"> 
+            <option value="Computer_Engineering"> Computer Engineering</option>
+            <option value="Mechanical_Engineering"> Mechanical Engineering</option>
+            <option value="Food_Science_and_Technology"> Food Science and Technology</option>
+        </optgroup>
+        <optgroup label="Average_Department">
+            <option value="Computer_Engineering"> Computer Engineering</option>
+            <option value="Mechanical_Engineering"> Mechanical Engineering</option>
+            <option value="Food_Science_and_Technology"> Food Science and Technology</option>
+        </optgroup>
+      </select>
+              <br/><br/>
+          <h3 class="header">
+              What I love doing when i am less busy;<br/>
+              Coding<input type="checkbox" name="spare_time[]" value="code"/>
+              Surfing Browsers<input type="checkbox" name="spare_time[]" value="surfing"/ checked="check">
+          </h3>
+             <br/><br/>
+
+             Do you play free fire?
+             Yes<input type="radio" name="play_fire" value="yes" checked="check">
+             No<input type="radio"  name="play_fire" value="no">
+
+             <br/><br/>
+                 Write a story of how grow to where you are<br/>
+               <textarea name="story" rows="20" cols="40">
+
+               </textarea>
+                 <br/><br/>
+                 Username:<input type="text" value="name"><br/>
+                 Password:<input type="password" value="password"><br/>
+                 CHECKBOXES<br/>
+                 1:<input type="checkbox" value="1" name="checker">
+                 2:<input type="checkbox" value="2" name="checker">
+                 3:<input type="checkbox" value="3" name="checker">
+                 <br/><br/>
+                 <input type="button" value="its a button"/>
+                 <input type="file" size="50"><br/>
+                 <input type="submit" value="submit"><br/>
+                 <input type="reset" value="reset"><br/>
+
+        <br/><br/>
+            <fieldset>
+              <legend>  Personal information:</legend>
+                First name;<input type="text"  name="First_name"><br/>
+                Last name;<input type="text"  name="Last_name"><br/>
+                <br/>
+            </fieldset>
+            <fieldset class="omicron">
+               <legend>Hobbies:<br/></legend>
+                Dancing;<input type="checkbox" value="Dancing"><br/>
+                Chatting<input type="checkbox" value="Chatting"><br/>
+                Surfing<input type="checkbox" value="Surfing"><br/>
+            </fieldset>
+                <br/>
+
+                <input type="submit" value="submit">
+
+               
+
+
+          
+      
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: plum;
+}
+li, a, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: purple;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+img{
+    width:90px;
+}
+.special{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.special_nav{
+    list-style: none;
+}
+
+.special_nav li{
+    display:inline-block;
+    padding: 8px 20px;
+}
+.special_nav li a{
+    transition: all 0.6 ease 0s ;
+}
+
+.special_nav li a:hover{
+    color: purple;
+}
+
+.btn{
+    border-radius: 10px;
+    border-color: purple;
+    padding: 5px 10px;
+    background: purple;
+    color: black;
+}
+

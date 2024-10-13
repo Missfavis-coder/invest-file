@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+.card{
+    width:700px;
+    background:aliceblue;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+::-webkit-scrollbar{
+    background-color: aliceblue;
+    width:15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:blueviolet;
+    border-radius:10px;
+
+}

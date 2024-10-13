@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+    
+
+
+.first_container{
+    background-color: green;
+    width:50%;
+    height:450px;
+    padding-top:3.0rem ;
+    padding-left: 2.0rem;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+@media screen and (max-width:930px)and (min-width:200px){
+    
+.first_container{
+    background-color: green;
+    width:100%;
+    height:450px;
+    padding-top:3.0rem ;
+    padding-left: 2.0rem;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.cardone{
+    display:block;
+
+}
+.information{
+    flex-direction: column;
+    text-align: center;
+}
+.list_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    margin: 0;
+    justify-content: center;
+}
+.second_container{
+    width:100%;
+    height:100vh;
+    padding:2rem 4rem 2rem 4rem;
+}
+
+}
+.container{
+      display: flex;
+}
+a {
+    text-decoration: none;
+    padding: 7px;
+    
+    
+}
+.contact{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    padding: 7px;
+    width:100%;
+}
+.first_header{
+    padding-bottom:1.5rem ;
+}
+.cards{
+    display: flex;
+    gap:1.0rem;
+}
+.topic{
+    margin-top: 1.9rem;
+    text-align: center;
+}
+.card_button{
+    color:white;
+    background: red;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 2.0rem;
+}
+.card_one{
+    background: rgb(214, 243, 214);
+    width:25%;
+    border-radius: 7px;
+    padding-top:2.0rem;
+    max-width:30rem;
+   
+}
+.sub_card{
+    padding:10px;
+    padding-left:2.0rem;
+}
+.card_two{
+    background-color: rgb(235, 220, 139);
+    width:25%;
+    border-radius: 7px;
+    padding-top: 2.0rem;
+}
+.card_three{
+    background: rgb(245, 213, 218);
+    width: 25%;
+    border-radius: 7px;
+}
+.card_four{
+    background: rgb(252, 249, 249);
+    width: 25%;
+}
+
+.second_container{
+    background: rgb(206, 22, 22);
+    margin-top: 2.0rem;
+    width: 50%;
+    padding:2.5rem 2rem 2.5rem 2.0rem ;
+    background-image:url('man.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-left: 1.5rem;
+    line-height: 2.0rem;
+}
+.third_container{
+    display: flex;
+    clear: both;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+   
+}
+.fifth_img{
+    width:300px;
+    background: yellow;
+    align-items: center;
+    height:400px;
+}
+.sub_section{
+    line-height: 2.0rem;
+}
+ .list_cards{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10rem;
+    padding: 40px;
+ }
+ .question{
+    display:block;
+    font-weight: 600;
+ }
+ .information{
+      display:flex;
+      text-align: center;
+ }
+ .news{
+    font-size: 2.0rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3.0rem;
+    font-family:  sans-serif;
+    margin-bottom: 3.0rem;
+ }
+ .sub_news{
+    text-align: center;
+    margin-bottom: 1.5rem;
+ }
+ .title_image{
+    display: grid;
+    width:100%;
+    justify-content: center;
+    gap:2.0rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 3.0rem;
+    
+ }
+ .tithe{
+    border:10px;
+    height: 80vh;
+    border-radius:8px ;
+    padding: 2rem 2.5rem 2.0rem 2.5rem;
+    width: 100%;
+    box-shadow: 0px 1px 1px black;
+ }
+ 
+ .art{
+    
+    border-top: 10px;
+    height:15rem;
+ }
+ .hub{
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    font-size: 1.0rem;
+ }
+ .hubs{
+    font-weight: 600;
+ }
+ 
+ .edge{
+    clear: both;
+
+ }
+ .steps{
+    display: block;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+ }
+ .box{
+    display: block;
+    justify-content: center;
+    align-items: center;gap:2rem;
+    
+ }
+ .anime{
+    font-size: 1.4rem;
+ }
+.chapter{
+    display:flex;
+    margin-top: 6rem;
+
+}
+.talk{
+    background: red;
+    color:white;
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 8px;
+    padding:1rem 2.5rem;
+    border-style: none;
+    font-style: 19px;
+    font-size:18px ;
+    margin-top: 2.0rem;
+}
+.adress{
+    display:flex;
+    width:100%;
+    margin-top:2.5rem ;
+    align-items: auto;
+}
+.about{
+    width:25%;
+    line-height: 1.5rem;
+}
+.office{
+    line-height: 1.5rem;
+    width:25%;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+   color: red;
+   font-size: 1.3rem;
+}
+.add{
+   margin-bottom: 1.5rem;
+}
+.state{
+
+   font-weight: 600;
+}
+.phone{
+   list-style: none;
+}
+.information{
+    width:100%;
+    line-height: 1.5rem;
+
+}
+.question{
+    width:33.3%;
+}.owner{
+    width:33.3%;
+    text-align: left;
+}
+.faint_comment{
+    width:33.3%;
+    margin: 0;
+    text-align: left;
+}
+.left_right{
+    margin-top: 1.5rem;
+}
+.name{
+    margin-top: 1.5rem;
+}
+.fifth_img{
+    background-color: yellow;
+    background-position: center;
+    background-size: cover;
+}
+.contact{
+        margin: 0;
+        padding:0;
+        width:25%;
+    }
+    .signature{
+        text-align: center;
+    }
+    .head{
+        margin-bottom:2.0rem ;
+    }
+
+ .box{
+      margin-top: 2.0rem;
+      align-items: center;
+ }
+
+
+
+ .cardlists{
+    background: aliceblue;
+ }
+ .cardtitle{
+    text-align: center;
+ }
+ 

@@ -1,0 +1,560 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: Arial;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding:20px 40px;
+    background-color: white;
+    margin-right: auto;
+    position: fixed;
+    width: 100%;
+
+}
+.but{
+    border-radius: 10px;
+    background: red;
+    color: white;
+    font-size: medium;
+    padding: 6px 12px;
+    border-style: none;
+}
+.navs{
+    margin-left: auto;
+    gap:1rem;
+}
+a{
+    display: inline-block;
+
+    padding: 3px 6px;
+    margin-right:auto ;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+a:hover{
+    color:pink;
+}
+.container,.tilep .pryp{
+    background: green;
+    color:white;
+    line-height: 3.0rem;
+    display: fixed;
+    width:50%;
+    height:90vh;
+    padding: 10px 15px ;
+    padding-left:2.0rem;
+    padding-top: 5rem;
+
+}
+.tilep{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3.5rem;
+    background: green;
+}
+.pryp{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2.0rem;
+    margin-bottom: 2.0rem;
+    margin-top: 3.5rem;
+    background: green;
+}
+
+
+.btn{
+    padding:15px 60px;
+    border-radius: 7px;
+    border-style: none;
+    background: white;
+    color:black;
+    font-size: 22px;
+    margin-top: 2.0rem;
+    margin-left:0.5rem;
+    margin-bottom:3.5rem ;
+}
+
+
+.look{
+    margin-top: 3.0rem;
+    margin-bottom: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5rem;
+    font-size: 30px;
+}
+
+.bun{
+    border-style: none;
+    background: red;
+    color:white;
+    padding:8px 20px;
+    border-radius: 6px;
+}
+.bun:hover{
+    color:blue;
+
+}
+.divcon{
+    display: flex;
+    gap: 2rem;
+    margin-left: 7px;
+    margin-right: 7px;
+    grid-template-columns: 1fr auto;
+    padding: 10px;
+
+}
+.varcons {
+    border-radius:10px ;
+    line-height: 2.0rem;
+    width:25%;
+    background: rgb(172, 245, 172);
+    padding-left: 2.0rem;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 1.5rem;
+}
+.pridiv{
+    background: rgb(172, 245, 172);
+    padding-right: 0.5rem;
+    position: fixed;
+    
+}
+.logo_three{
+    background:rgb(172, 245, 172) ;
+    margin-top: 1.5rem;
+}
+.vah {
+    background: rgb(172, 245, 172);
+} 
+.pav{
+    background: rgb(172, 245, 172);
+    line-height: 1.1rem;
+}
+ 
+.primary{
+    line-height: 1.8rem;
+    width:25%;
+    background:rgb(224, 210, 127) ;
+    padding:10px; 
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo_four{
+    background: rgb(224, 210, 127);
+    margin-top: 1.5rem;
+}
+.lop{
+    background: rgb(224, 210, 127);
+}
+.poh{
+    background: rgb(224, 210, 127);
+}
+.second {
+     line-height: 2.0rem;
+     width:25%;
+     background: rgb(211, 185, 189);
+     padding-left: 2.0rem;
+     border-radius: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-right:1.5rem ;
+}
+.logo_five{
+    background: rgb(211, 185, 189);
+    margin-top: 1.5rem;
+}
+.psr{
+    background: rgb(211, 185, 189);
+}
+.rsp{
+    background: rgb(211, 185, 189);
+    text-wrap: wrap;
+    padding-right: 0.5rem;
+}
+.tertiary{
+     line-height: 2.0rem;
+     width:25%;
+     background: whitesmoke;
+     flex: 1;
+     padding-left: 2.0rem;
+     border-radius: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.logo_six{
+    background: whitesmoke;
+    margin-top: 1.5rem;
+
+}
+.tpr{
+    background: whitesmoke;
+}
+.rpt{
+    background: whitesmoke;
+}
+
+.button{
+    font-size: 18px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    width: 50%;
+    padding-top: 3.0rem;
+    background: red;
+    color:white;
+    margin-left:2.0rem ;
+    margin-top: 2.5rem;
+    padding-left:2.0rem ;
+
+}
+content{
+    background: red;
+    padding: 2rem 4rem;
+    color: white;
+    width:50%;
+    margin-top: 2.0rem;
+    padding-top: 2.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2.0rem;
+
+}
+.para{
+    justify-content: left;
+    padding-left: 2.0rem;
+    padding-right:2.0rem ;
+    margin-left:2.0rem ;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8rem;
+    padding-bottom: 3.0rem;
+    width: 50%;
+    background: red;
+    color: white;
+    
+}
+.logo{
+    float: right;
+    
+
+}
+.second_title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    padding-right: 2.0rem;
+
+}
+.second_content{
+    line-height:2.0rem ;
+    font-family: poppins, sans-serif;
+    margin-top: 1.5rem;
+}
+.contents{
+    width: 40%;
+    float: right;
+    margin-top: 3.0rem;
+}
+.contentv{
+    clear:both;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width:100%;
+    margin-top: 4.0rem;
+}
+.third_title{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5.0rem;
+    font-size: 27px;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+.third_content{
+     justify-content: center;
+     text-align: center;
+     background: aliceblue;
+     font-size: 20px;
+     margin-top: 1.5rem;
+}
+.blue{
+    background: aliceblue;
+}
+.large {
+    display:flex ;
+    justify-content: space-between;
+    text-align: center;
+    gap:3.0rem;
+    background: aliceblue;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left:20.0rem ;
+    padding-right: 20.0rem;
+    
+}
+.comment{
+    background: white;
+    margin: 0;
+    display: flex;
+
+}
+.first_comment{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 30%;
+}
+.faint{
+    width: 40%;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    
+    
+}
+.right{
+    color:red;
+}
+.topic{
+    font-weight: 600;
+    font-size:32px ;
+    text-align: center;
+    background: white;
+    color: black;
+    margin-top: 2.5rem;
+    margin-bottom:1.5rem ;
+    padding-top: 3.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.sub_topic{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+  .opt{
+    width:25%;
+    text-align: left;
+    flex-wrap:flex;
+  }  
+
+.big{
+    clear: both;
+}
+
+
+
+.cust{
+    background:white;
+    color:black;
+    text-align: left;
+    
+    
+}
+.taiwo{
+    
+    border: none;
+    width: 100%;
+    margin: 10px;
+    line-height: 1.0rem;
+    padding:50px;
+    box-shadow: 1px 0px white;
+    
+}
+.info{
+    margin-top: 1.5rem;
+    border-bottom: 10px;
+    font-size: 1.0rem;
+    border-radius: 8px;
+    width:100%;
+    
+}
+ .art{
+    width:100%;
+    
+}
+
+.info{
+    font-weight: 600;
+
+}
+.info_main{
+    font-size: 1.0rem;
+    margin-top: 1.1rem;
+}
+.info_topic{
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.flex{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    flex-wrap: wrap;
+    gap:1rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 2.5rem;   
+}
+
+.file{
+    width:40%;
+}
+
+.comment{
+    justify-content: center;
+    text-align: center;
+
+}
+.anime{
+    color: black;
+    background: white;
+}
+.steps{
+    margin-right: 1rem;
+    width: 35%;
+    float: right;
+    display: block;
+    
+    
+}
+label{
+    display: inline-block;
+    line-height: 2.5rem;
+}
+
+
+.bunhubs{
+    border-radius: 8px;
+    background:rgb(243, 51, 51) ;
+    color: white;
+    padding: 10px 30px;
+    border-style: none;
+    font-size: 20px;
+    margin-top: 2.0rem;
+    text-align: center;
+}
+.talk{
+    border-radius: 8px;
+    background: red;
+    color:white;
+    padding:1rem 2.5rem;
+    border-style: none;
+    font-style: 19px;
+    font-size:18px ;
+    margin-top: 2.0rem;
+}
+.profile {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    width:50%;
+
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 20%;
+    margin-right:10% ;
+    padding: 15px 30px;
+    padding-top: 2.0rem;
+}
+.file{
+    max-width: 120px;
+   
+}
+.infopro{
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.animation{
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    margin-bottom: 1.5rem;
+    margin-top: 3.0rem;
+}
+.help{
+    margin-left: 0;
+}
+.steps{
+    line-height: 1.5rem;
+}
+.anime{
+    margin:0;
+    padding: 0;
+    line-height: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+.adress{
+    display: flex;
+    width:100%;
+    align-items: inherit;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    
+}
+.about{
+    width:25%;
+    backgroun
+    line-height: 1.5rem;
+}
+.office{
+     line-height: 1.5rem;
+     width:25%;
+}
+.head{
+    color: red;
+    font-size: 1.3rem;
+}
+.add{
+    margin-bottom: 1.5rem;
+}
+.state{
+
+    font-weight: 600;
+}
+.phone{
+    list-style: none;
+}
+.contact{
+    margin: 0;
+    padding:0;
+    width:25%;
+}
+hr{
+    width: 100%;
+}
+@media screen (max-width:932px) {
+
+    header{
+        padding:0, 15px;
+    }
+    .divcon{
+        flex-direction: column;
+    }
+
+
+
+
+
+}
+

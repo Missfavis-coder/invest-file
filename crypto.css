@@ -1,0 +1,248 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   background-color:rgb(17, 17, 34);
+   font-family: arial;
+   color: white;
+
+}
+@media screen and (max-width:768px){
+    *{
+        margin-left: 0.5rem;
+        
+    }
+    .first{
+        flex-direction: column;
+        width:50%;
+        
+        
+    }
+    .image{
+        justify-content: center;
+    }
+    .header{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    a, .join{
+        display:none;
+    }
+    .rates{
+        width:100%;
+        padding-right: 3rem;
+        text-align: center;
+    }
+    br{
+        display: none;
+    }
+    
+    .big_title{
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+    .offer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan_lists{
+        flex-direction: column;
+       background-color: linear-gradient(to left 50% black 50% blue);
+
+    }
+    .search{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hardwork{
+        flex-direction: column;
+    }
+    .image_points{
+        flex-direction: column;
+    }.about_topic{
+        line-height: 1.5rem;
+    }
+    .firsthidden {
+        margin-top: 2rem;
+        font-size: 16px;
+        width:100%;
+        border-top: 1.5px solid white;
+        border-bottom: 1.5px solid white;
+    }
+    .secondhidden{
+        margin-top: 2rem;
+        font-size: 16px;
+        width:100%;
+        border-top: 1.5px solid white;
+        border-bottom: 1.5px solid white;
+    }
+    .thirdhidden{
+        margin-top: 2rem;
+        font-size: 16px;
+        width:100%;
+        border-top: 1.5px solid white;
+        border-bottom: 1.5px solid white;
+    }
+    .fourthhidden{
+        margin-top: 2rem;
+        font-size: 16px;
+        width:100%;
+        border-top: 1.5px solid white;
+        border-bottom: 1.5px solid white;
+    }
+    .hidden{
+        line-height: 1.7rem;
+        text-align: justify;
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 1.5rem 7rem 1.5rem 7rem;
+    background: transparent;
+    position: fixed;
+    margin-top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.logo{
+    justify-content: space-between;
+    display: inline-block;
+    text-decoration: none;
+}
+span{
+    color:blue;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.title_first{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.Join{
+   color:whitesmoke;
+   background: blue;
+   padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+   border-radius: 20px;
+   font-size: 1.2rem;
+}
+.big_title{
+   color:whitesmoke;
+   font-size: 3.0rem; 
+   font-weight: 700;
+   line-height: 3.5rem;
+   margin-bottom: 2rem;
+
+}
+.first{
+    width:70%;
+    margin-left:5rem ;
+    display: flex;
+    gap:2rem;
+}
+.image{
+    width:30%;
+}
+.rates{
+    color: rgb(252, 248, 248);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.compare{
+    color:whitesmoke;
+    background: blue;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.communitylogo{
+    
+    background:transparent;
+    width:150px;
+    height:150px;
+    align-items: center;
+}
+.offer{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding:2rem 4rem 2rem 4rem;
+
+}
+.plan_topic{
+    text-align: center;
+}
+ul{
+    border-top: 2px solid blue;
+    border-top-width:5px ;
+    width:15rem;
+    
+}
+.plan_lists{
+    display: flex;
+    justify-content: space-between;
+    gap:4rem;
+    padding:2rem 6rem 2rem 6rem;
+}
+.hardwork{
+    display: flex;
+    margin-top: 2rem;
+    padding-right:3.0rem ;
+    padding-left: 3.0rem;
+    gap:3rem;
+}
+.helpone{
+    margin-top: 1.5rem;
+}
+h3{
+    margin-bottom: 1.5rem;
+}
+.one{
+    width:2rem;
+    height:2rem;
+    font-size: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background: blue;
+    border-radius:100% ;
+}
+.advantages{
+    line-height: 2rem;
+}
+.search{
+    display:flex;
+    justify-content: space-between;
+    gap:2rem;
+    padding: 2rem 4rem 2rem 4rem;
+}
+.imageone{
+    width:200px;
+    height:200px;
+    border-top-right-radius: 2.8rem;
+}
+.image_points{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.transpa{
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    background: blue ;
+    margin-left: 40rem;
+}
+.firsthidden{
+    width:100%;
+
+}
+.textone ul li{
+    background:blue;
+    color-scheme: light blue;
+    width:20rem;
+    height:50px;
+    padding-top: 1.5rem;
+    align-items: center;
+    padding-left: 2rem;
+}

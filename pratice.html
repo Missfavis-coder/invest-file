@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DoM</title>
+    <link rel="stylesheet" href="pratice.css">
+</head>
+<body >
+    <div class="bigContainer">
+        <div class="container">
+            <h2>Quiz App</h2>
+          <div class="settings">
+            <label for="num_questions">Number of Questions</label>
+             <select name="" id="questions">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+             </select>
+             <label for="num_questions">Select Gender</label>
+             <select name="" id="questions">
+                <option value="#">Female</option>
+                <option value="#">Male</option>
+                <option value="#">Trans Gender</option>
+                <option value="4">I did prefer not to say</option>
+                <option value="5">I am a robot</option>
+                <option value="6"></option>
+             </select>
+             <label for="num_questions">Select Difficulty</label>
+             <select name="" id="questions">
+                <option value="1">Medium</option>
+                <option value="2">Simple</option>
+                <option value="3">Hard</option>
+                <option value="4">Slightly easy</option>
+             </select>
+
+             <label for="num_questions">Select time per questions</label>
+             <select name="" id="questions">
+                <option value="1">10 seconds</option>
+                <option value="2">20 seconds</option>
+                <option value="3">30 seconds</option>
+                <option value="4">40 seconds</option>
+                <option value="5">50 seconds</option>
+                <option value="6">6o seconds</option>
+             </select>
+             <button class="start_quiz">Start Qiuz</button>
+         </div>
+        </div>
+    </div>
+
+    <div class="Questionsbox">
+        <div class="Box_one">
+
+           <div class="timer">
+            <div class="start_progress"></div>
+            <div class="progress_text">1</div>
+           </div>
+
+           <div class="questions_wrapper">
+             <div class="Questions">
+                <div class="Question_num">Questions 1<span class="one">/5</span></div>
+             </div>
+             <div class="questions_text">
+                Which Eltan John hit starts with the line
+                 "When are you gonna come down"?
+             </div>
+            <div class="answer_wrong">
+                <div class="answer_text">Crocodile Rock</div>
+                <div class="correct">
+                 <div class="icon">*</div> 
+                </div>
+            </div>
+            <div class="answer_wrong">
+                <div class="answer_text">Rocket man</div><div class="correct">
+                    <div class="icon">*</div> 
+                   </div>
+            </div>
+            <div class="answer_wrong">
+                <div class="answer_text">Goodbye Yellow Brick Road</div>
+                <div class="correct">
+                    <div class="icon">*</div> 
+              </div>
+            </div>
+            <div class="answer_correct">
+                <div class="answer_text">Bennie and the sea</div>
+            </div>
+            <button class="submit" disabled>Submit</button>
+            <button class="next">Next</button>
+           </div>
+        </div>
+    </div>
+
+    <script src="practice.js"></script>
+</body>
+</html>

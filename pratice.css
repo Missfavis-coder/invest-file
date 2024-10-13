@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.bigContainer{
+    display:flex;
+    height:100vh;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 63);
+    border-radius: 12px;
+    max-width:450px;
+    max-height: 600px;
+    color:white;
+    padding: 40px 12px;
+    height:100%;
+    width:100%;
+    margin-bottom: 9rem;
+    margin-top: 8rem;
+}
+h2{
+    text-align: center;
+    font-size: 34px;
+}
+.settings{
+    display:block;
+    line-height: 2rem;
+    padding:10px;
+    margin-top: 12px;
+    margin:20px ;
+}
+label{
+    font-size: 18px;
+}
+#questions{
+   height:42px;
+   max-width:340px;
+   width:100%;
+   margin-bottom: 20px;
+   font-size: 16px;
+}
+.start_quiz{
+    max-width:340px ;
+    width:100%;
+    background-color: blue;
+    outline: none;
+    border-style: none;
+    cursor:pointer;
+    padding:12px;
+    border-radius:6px ;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.start_quiz:hover{
+    color:blue;
+    background-color: white;
+}
+.start_quiz:disabled{
+    cursor:not-allowed;
+    background-color: rgba(0, 0, 255, 0.651);
+}
+.Questionsbox{
+    display:flex;
+    height:100vh;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+.Box_one{
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 63);
+    border-radius: 12px;
+    max-width:450px;
+    min-height: 700px;
+    color:white;
+    padding: 50px 12px;
+    height:100%;
+    width:100%;
+    margin-top: 8rem;
+}
+.timer{
+    height:46px;
+    background-color:transparent;
+    max-width: 340px;
+    width:100%;
+    margin-left: 2rem;
+    border-radius: 20px;
+    position: relative;
+    border:1px solid white;
+}
+.start_progress{
+    height:46px;
+    background-color:rgb(180, 79, 96);
+    max-width: 340px;
+    width:40%;
+    border-radius: 20px;
+    position: ;
+    overflow: hidden;
+    border:1px solid white;
+}
+.progress_text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) ;
+    font-size:20px ;
+}
+.questions_wrapper{
+    padding: 30px 20px;
+}
+.Questions{
+    padding: 8px 12px;
+    line-height: 2rem;
+    margin-bottom: ;
+    color:rgb(226, 225, 225)
+}
+.Question_num{
+    font-size:21px;
+    font-weight:600 ;
+}
+.one{
+    font-size:17px ;
+    color:#9e9a9a ;
+}
+.questions_text{
+    padding:8px 12px ;
+    line-height: 2rem;
+    font-size: 18px;
+}
+.answer_wrong{
+    height:46px;
+    max-width:360px ;
+    width: 100%;
+    background-color:transparent;
+    margin-bottom:13px ;
+    padding: 12px;
+    font-size: 19px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-top:19px ; 
+    justify-content: space-between;
+    display:flex;
+    cursor: pointer;
+}
+.answer_wrong:hover{
+    border:3px solid red;
+}
+.answer_correct{
+    height:46px;
+    max-width:360px ;
+    width: 100%;
+    background-color:transparent;
+    margin-bottom:13px ;
+    padding: 12px;
+    font-size: 19px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-top:19px ; 
+    justify-content: space-between;
+    display:flex;
+    cursor: pointer; 
+}
+.answer_correct:hover{
+    border: 3px solid green;
+}
+.answer_wrong .correct:hover{
+    opacity:0;
+}
+.answer_correct .correct{
+    opacity:0;
+}
+.correct{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid white;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.icon:hover{
+    opacity: ;
+}
+.correct:hover{
+    background-color: blue;
+    opacity:1;
+    color:white;
+}
+.submit{
+    max-width:340px ;
+    width:100%;
+    background-color: blue;
+    outline: none;
+    border-style: none;
+    cursor:pointer;
+    padding:12px;
+    border-radius:6px ;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 37px;
+}
+.next{
+    max-width:340px ;
+    width:100%;
+    background-color: blue;
+    outline: none;
+    border-style: none;
+    cursor:pointer;
+    padding:12px;
+    border-radius:6px ;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 29px;
+}
+button:disabled{
+    background-color: #9e9a9a;
+    margin-bottom: 0;
+}
+.next{
+    display: none;
+}
